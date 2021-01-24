@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+  <!-- main css -->
+  <link rel="stylesheet" href="style.css">
+  <title>Quote Generator</title>
+</head>
+<body>
+  <!-- Quote Container -->
+  <div class="quote-container" id="quote-container">
+    <!-- Quote -->
+    <div class="quote-text">
+      <i class="fa fa-quote-left" aria-hidden="true"></i>
+      <span class="quote"></span>
+    </div>
+    <!-- Author -->
+    <div class="quote-author">
+      <span class="author"></span>
+    </div>
+    <!-- Buttons -->
+    <div class="btn-container">
+      <button class="btn twitter-btn" id="twitter" title="Tweet this!">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </button>
+      <button id="new-quote" class="btn">New Quote</button>
+    </div>
+  </div>
+   
+  <!-- loaders -->
+  <div id="loader">
+    <img src="loader.gif" alt="loading gif">
+  </div>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/249306a34c.js" crossorigin="anonymous"></script>
+  <!-- main js -->
+  <script src="main.js"></script>
+</body>
+</html>

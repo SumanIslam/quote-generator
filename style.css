@@ -1,0 +1,102 @@
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* basic style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #1e1c1c;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* quote container */
+.quote-container {
+  max-width: 60rem;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  background-color: #fff;
+  opacity: 0.95;
+  color: #1e1c1c;
+  box-shadow: 0 10px 10px 10px rgba(60, 60, 60,0.5);
+}
+/* quote text */
+.quote-text {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.quote {
+  font-size: 2.7rem;
+}
+.long-quote {
+  font-size: 2.2rem;
+}
+/* quote author */
+.quote-author {
+  font-size: 1.5rem;
+  color: #bb0918;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* button container */
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* button  */
+.btn {
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background-color: #1e1c1c;
+  color: #fff;
+  outline: none;
+  border: none;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+  cursor: pointer;
+}
+.btn:hover {
+  filter: brightness(110%);
+}
+.btn:active {
+  transform: translateY(5px);
+}
+/* twitter button */
+.twitter-btn {
+  font-size: 150%;
+  transition: all 0.3s ease-in;
+}
+.twitter-btn:hover {
+  color: #1DA1F2;
+}
+.twitter-btn:active {
+  transform: translateY(25px);
+}
+/* new quote button */
+#new-quote {
+  font-size: 115%;
+}
+
+/* loader */
+#loader {
+  display: none;
+}
+
+
+/* media query  */
+@media screen and (max-width: 1000px) {
+  .quote-container {
+    margin: auto 10px;
+  }
+  .quote {
+    font-size: 2.4rem;
+  }
+}
