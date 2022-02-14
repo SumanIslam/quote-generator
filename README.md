@@ -1,2 +1,2 @@
-# quote-generator
-#website link -> https://optimistic-shirley-d6184f.netlify.app/
+## website link
+click [here](https://sumanislam.github.io/quote-generator/) to see the Live preview of the website.
